@@ -1,0 +1,25 @@
+body {
+    color: blueviolet;
+    background-color: bisque;
+    font-size: 18px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    font-size: 1.5em;
+    color:seagreen;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+a {
+    text-decoration: none;
+    font-style: oblique;
+}
+
+p {
+    text-align: center;
+}
