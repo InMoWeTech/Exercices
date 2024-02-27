@@ -3,7 +3,16 @@ body {
     background-color: bisque;
     font-size: 18px;
     font-family: Verdana, Tahoma, sans-serif;
+    /* text-align: center; */
 }
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+*/
 
 h1, h2 {
     font-size: 1.5em;
@@ -22,9 +31,31 @@ a {
 
 p {
     text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-left: 1px inset #5D6063;
+    margin-bottom: 50px;
 }
 
 p::first-line {
     color: #ff0000;
     font-variant: small-caps;
+  }
+
+em, strong {
+    padding: 50px;
+    background-color: blue;
+}
+
+.div-1 {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+    margin: 20px auto;
   }
